@@ -1,0 +1,4 @@
+@import "./font-face";
+
+@include font-face("ObjectSans", "ObjectSans-Bold", 700);
+@include font-face("ObjectSans", "ObjectSans-Regular", 400);

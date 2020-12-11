@@ -1,0 +1,23 @@
+.header {
+  .navigation {
+    padding: 20px 0;
+
+    &-add-wrapper {
+      position: relative;
+    }
+
+    &-add-form {
+      position: absolute;
+      left: 30px;
+      top: 30px;
+      display: none;
+      padding: 30px;
+      width: 300px;
+      background: rgb(235, 235, 235);
+
+      &_active {
+        display: block;
+      }
+    }
+  }
+}

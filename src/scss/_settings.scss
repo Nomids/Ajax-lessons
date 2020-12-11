@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ObjectSans";
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1480px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.title {
+  z-index: 100;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+}
